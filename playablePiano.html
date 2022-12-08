@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Playable Piano</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Play the Piano with the Keyboard</h1>
+            <h3>Use a,s,d,f,g,h,j,k,l,; to play</h3>
+            <p>(yes it is very out of tune)</p>
+            <p>click the red power button to get started</p>
+        </header>
+
+        <audio src="Audio/24-piano-keys/key01.mp3" id="key1"></audio>
+        <audio src="Audio/24-piano-keys/key02.mp3" id="key2"></audio>
+        <audio src="Audio/24-piano-keys/key03.mp3" id="key3"></audio>
+        <audio src="Audio/24-piano-keys/key04.mp3" id="key4"></audio>
+        <audio src="Audio/24-piano-keys/key05.mp3" id="key5"></audio>
+        <audio src="Audio/24-piano-keys/key06.mp3" id="key6"></audio>
+        <audio src="Audio/24-piano-keys/key07.mp3" id="key7"></audio>
+        <audio src="Audio/24-piano-keys/key08.mp3" id="key8"></audio>
+        <audio src="Audio/24-piano-keys/key09.mp3" id="key9"></audio>
+        <audio src="Audio/24-piano-keys/key10.mp3" id="key10"></audio>
+       
+        <section class="power">
+            <img src="SVG/on-off.svg" id="power">
+            <p></p>
+        </section>
+
+        <section class="styleChange">
+            <div>
+                <img src="SVG/Layer 18.svg" id="prev">
+            </div>
+            <div>
+                <img src="SVG/Layer 17.svg" id="next">
+            </div>
+        </section>
+
+        <section class="piano">
+            <img src="SVG/Piano.svg">
+        </section>
+     
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="js.js"></script>
+    </body>
+</html>

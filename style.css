@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+audio {
+    display: none;
+}
+
+.styleChange {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#prev {
+    max-width: 50px;
+}
+
+#next {
+    max-width: 50px;
+}
+
+#power {
+    max-width: 100px;
+    
+}
+
+.power {
+    text-align: center;
+}
+
+.piano {
+    display: none;
+}
